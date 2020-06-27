@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body{
+    background-image: linear-gradient(rgba(54, 63, 72, 0.85), rgba(54, 63, 72, 0.85)),url("../img/bg-hotel.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*navbar*/
+.nav{
+    padding: 30px 0;
+}
+.nav .container{
+    width: 70%;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 30px
+}
+.nav-link{
+    padding: 10px 15px !important;
+    color: #999 !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    transition:all .5s ease-in-out;
+}
+.nav-link:hover{
+    color: #969595 !important;
+    background-color: #0000001a;
+    
+}
+.nav-item > i{
+    font-size: 23px;
+    line-height: 26px;
+    margin: 0 8px;
+    color: #bbb; 
+    transition:all .5s ease-in-out;
+}
+.nav-item > i:hover{
+    color: #999;
+}
+.social{
+    margin-left: 70px
+}
+collapse{
+    background: rgb(54, 63, 72);
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+}
+.dropdown-menu{
+    transition:all .5s ease-in-out;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition:all .5s ease-in-out;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .social{
+        display: inline-block !important;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .social>li{
+        padding-right: 20px;
+        display: inline-block !important;
+    }
+    .navbar{
+        background: rgb(54, 63, 72);
+    }
+    .nav .container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        padding-top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .social{
+        display: inline-block !important;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .social>li{
+        padding-right: 20px;
+        display: inline-block !important;
+    }
+     .navbar{
+        background: rgb(54, 63, 72);
+    }
+    .nav .container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        padding-top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
